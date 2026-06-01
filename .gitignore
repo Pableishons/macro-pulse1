@@ -1,0 +1,26 @@
+# Entorno virtual
+venv/
+
+# Credenciales (NUNCA subir a Git)
+.env
+.env.local
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Cosas del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
